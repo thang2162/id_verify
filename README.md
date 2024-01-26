@@ -6,7 +6,7 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 You will need to create a .env file with your AWS Access and Secret Keys and place in the project's root. The key will need to access to the S3, Rekognition and Textract Apis.
 
-Example:
+Example .env file:
 ```bash
 AWS_ACCESS_KEY=<ACCESS_KEY>
 AWS_SECRET_KEY=<SECRET_KEY>

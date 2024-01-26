@@ -4,6 +4,14 @@ This is a new [**React Native**](https://reactnative.dev) project, bootstrapped 
 
 >**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
 
+You will need to create a .env file with your AWS Access and Secret Keys and place in the project's root. The key will need to access to the S3, Rekognition and Textract Apis.
+
+Example:
+```bash
+AWS_ACCESS_KEY=<ACCESS_KEY>
+AWS_SECRET_KEY=<SECRet_KEY>
+```
+
 ## Step 1: Start the Metro Server
 
 First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.

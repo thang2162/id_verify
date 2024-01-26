@@ -9,7 +9,7 @@ You will need to create a .env file with your AWS Access and Secret Keys and pla
 Example:
 ```bash
 AWS_ACCESS_KEY=<ACCESS_KEY>
-AWS_SECRET_KEY=<SECRet_KEY>
+AWS_SECRET_KEY=<SECRET_KEY>
 ```
 
 ## Step 1: Start the Metro Server
